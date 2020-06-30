@@ -1,0 +1,28 @@
+html, body {
+    height: 95%;
+}
+
+.msg-body {
+    background-color: rgb(104, 171, 173);
+    position: relative;
+}
+
+.msg-box {
+    background-color: rgb(99, 166, 168);
+    display: inline-block;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    left: 0; right: 0; bottom: 0; top: 0;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+
+.no-link:visited, .no-link {
+    text-decoration: none;
+    color: blue;
+}
