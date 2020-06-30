@@ -1,6 +1,6 @@
 <?php
-    $password = $_POST['password'];
-    $security_code = $_POST['security-code'];
+    $password = $_GET['password'];
+    $security_code = $_GET['security-code'];
 
     $d_password = "";
     $d_security_code = "";
